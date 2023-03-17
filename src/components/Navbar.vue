@@ -26,7 +26,6 @@ const toggleLeftDrawer = ref(false);
     v-model="toggleLeftDrawer"
     show-if-above
     :width="270"
-    :breakpoint="400"
   >
     <NavbarDrawer />
   </q-drawer>

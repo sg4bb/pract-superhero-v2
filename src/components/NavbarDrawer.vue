@@ -11,7 +11,7 @@
     <q-list padding>
       <q-item to="/heros" clickable v-ripple>
         <q-item-section avatar>
-          <q-icon name="inbox" />
+          <q-icon name="folder_open" />
         </q-item-section>
 
         <q-item-section> Consultas </q-item-section>
@@ -19,10 +19,18 @@
 
       <q-item to="/heros/mod" clickable v-ripple>
         <q-item-section avatar>
-          <q-icon name="star" />
+          <q-icon name="border_color" />
         </q-item-section>
 
         <q-item-section> Modificaciones </q-item-section>
+      </q-item>
+
+      <q-item to="/dates" clickable v-ripple>
+        <q-item-section avatar>
+          <q-icon  name="calendar_month" />
+        </q-item-section>
+
+        <q-item-section> Fechas </q-item-section>
       </q-item>
     </q-list>
   </q-scroll-area>

@@ -7,6 +7,7 @@ const routes = [
       { path: '', component: () => import('pages/IndexPage.vue') },
       { path: 'heros', component: () => import('pages/ConsultHeros.vue') },
       { path: 'heros/mod', component: () => import('pages/ModHeros.vue') },
+      { path: '/dates', component: () => import('pages/DatesControl.vue') },
     ]
   },
 
